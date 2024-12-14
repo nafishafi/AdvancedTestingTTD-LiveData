@@ -71,4 +71,8 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.ktx) //viewModelScope
     implementation(libs.androidx.lifecycle.livedata.ktx) //liveData
     implementation(libs.androidx.room.ktx)
+
+    testImplementation(libs.mockito.core)
+    testImplementation(libs.mockito.inline)
+    testImplementation(libs.androidx.core.testing)
 }
